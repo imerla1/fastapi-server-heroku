@@ -14,7 +14,6 @@ import os
 from fastapi.responses import RedirectResponse
 
 
-
 app = FastAPI(
     title="FastAPI Oauth2 Implementation"
 )
@@ -125,7 +124,8 @@ async def get_current_active_user(current_user: UserBase = Depends(get_current_u
         raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
 
-@app.get("/")
+
+@app.get("/", include_in_schema=False)
 async def root():
     # redirect from index page to swagger docs
     return RedirectResponse(
@@ -195,5 +195,3 @@ async def log_requests(request: Request, call_next):
         f"rid={idem} completed_in={formatted_process_time}ms status_code={response.status_code}")
 
     return response
-
-
