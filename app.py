@@ -144,6 +144,10 @@ async def clear_db():
     fake_users_db = {}
     return "db cleared"
 
+@app.get("/db/size")
+async def get_db_size():
+    global fake_users_db
+    return len(fake_users_db)
 
 @app.post("/register", response_model=UserBase)
 async def register_user(user: UserRegistrationModel):
