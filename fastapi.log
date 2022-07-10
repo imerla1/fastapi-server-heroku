@@ -1,0 +1,18 @@
+22:11:10,418 passlib.registry DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+22:11:10,421 uvicorn.error INFO Started server process [19162]
+22:11:10,422 uvicorn.error INFO Waiting for application startup.
+22:11:10,422 uvicorn.error INFO Application startup complete.
+22:11:11,553 main INFO rid=NGXRMU start request path=/
+22:11:11,553 main INFO rid=NGXRMU completed_in=0.25ms status_code=404
+22:11:11,813 main INFO rid=PNTGZ1 start request path=/favicon.ico
+22:11:11,814 main INFO rid=PNTGZ1 completed_in=0.25ms status_code=404
+22:11:14,288 main INFO rid=99ZOTJ start request path=/docs
+22:11:14,289 main INFO rid=99ZOTJ completed_in=0.25ms status_code=200
+22:11:14,469 main INFO rid=KPMBHA start request path=/openapi.json
+22:11:14,476 main INFO rid=KPMBHA completed_in=5.95ms status_code=200
+22:11:17,546 main INFO rid=6GZ5YA start request path=/register
+22:11:17,547 passlib.handlers.bcrypt DEBUG detected 'bcrypt' backend, version '3.2.0'
+22:11:17,547 passlib.handlers.bcrypt DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+22:11:17,755 main INFO rid=6GZ5YA completed_in=208.78ms status_code=200
+22:11:24,429 main INFO rid=0L2KXE start request path=/get/db
+22:11:24,429 main INFO rid=0L2KXE completed_in=0.24ms status_code=200
