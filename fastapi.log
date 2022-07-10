@@ -16,3 +16,25 @@
 22:11:17,755 main INFO rid=6GZ5YA completed_in=208.78ms status_code=200
 22:11:24,429 main INFO rid=0L2KXE start request path=/get/db
 22:11:24,429 main INFO rid=0L2KXE completed_in=0.24ms status_code=200
+13:06:13,959 passlib.registry DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+13:06:13,963 uvicorn.error INFO Started server process [53582]
+13:06:13,964 uvicorn.error INFO Waiting for application startup.
+13:06:13,964 uvicorn.error INFO Application startup complete.
+13:06:15,193 main INFO rid=0ISYQF start request path=/
+13:06:15,193 main INFO rid=0ISYQF completed_in=0.37ms status_code=307
+13:06:15,206 main INFO rid=ZFPPC0 start request path=/docs
+13:06:15,206 main INFO rid=ZFPPC0 completed_in=0.17ms status_code=200
+13:06:16,214 main INFO rid=2U0A4M start request path=/openapi.json
+13:06:16,220 main INFO rid=2U0A4M completed_in=5.68ms status_code=200
+13:06:40,824 uvicorn.error INFO Shutting down
+13:06:40,924 uvicorn.error INFO Waiting for application shutdown.
+13:06:40,925 uvicorn.error INFO Application shutdown complete.
+13:06:40,925 uvicorn.error INFO Finished server process [53582]
+13:06:41,168 passlib.registry DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+13:06:41,171 uvicorn.error INFO Started server process [53817]
+13:06:41,172 uvicorn.error INFO Waiting for application startup.
+13:06:41,172 uvicorn.error INFO Application startup complete.
+13:06:42,411 main INFO rid=RY0YF7 start request path=/docs
+13:06:42,411 main INFO rid=RY0YF7 completed_in=0.36ms status_code=200
+13:06:42,713 main INFO rid=9TDXUE start request path=/openapi.json
+13:06:42,717 main INFO rid=9TDXUE completed_in=3.74ms status_code=200
